@@ -1,3 +1,4 @@
+import { SiteFooter } from "@/components/layouts/site-footer";
 import { SiteHeader } from "@/components/layouts/site-header";
 
 const user = null;
@@ -9,7 +10,7 @@ export default function AppLayout({ children, }: Readonly<{ children: React.Reac
       <main>
         {children}
       </main>
-      
+      <SiteFooter />
     </div>
   );
 }

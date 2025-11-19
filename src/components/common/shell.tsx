@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils"
 const shellVariants = cva("grid items-center gap-8 pb-8 pt-6 lg:py-6", {
     variants: {
         variant: {
-            default: "container mx-auto",
+            default: "container mx-auto px-4 md:px-8",
             sidebar: "",
             centered: "container mx-auto flex h-dvh max-w-2xl flex-col justify-center",
             markdown: "container mx-auto max-w-3xl py-8 md:py-10",
